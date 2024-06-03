@@ -5048,7 +5048,7 @@ input[type=color] {
 }
 .tp-platform__thumb img {
   box-shadow: 12px 50px 81px rgba(25, 46, 78, 0.14);
-  margin: 0px 80px;
+  margin: 0px 40px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-platform__thumb img {
