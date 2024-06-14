@@ -2044,7 +2044,7 @@ input[type=color] {
 .breadcrumb__title {
     font-weight: 600;
     font-size: 50px;
-    line-height: 1.1;
+    line-height: 0.5;
     color: #0c7878;
     padding-bottom: 15px;
 }
