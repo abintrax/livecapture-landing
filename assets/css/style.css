@@ -705,6 +705,7 @@ input[type=color] {
 }
 
 @media (max-width: 767px) {
+
     .tp-btn-border {
         height: 45px;
         line-height: 45px;
@@ -739,15 +740,15 @@ input[type=color] {
         font-size: 16px;
     }
 
-    .breadcrumb-height {
-        padding-top: 150px;
-        padding-bottom: 120px;
-        background-position: left;
-    }
+    /*.breadcrumb-height {*/
+    /*    padding-top: 150px;*/
+    /*    padding-bottom: 120px;*/
+    /*    background-position: left;*/
+    /*}*/
 
 
     .breadcrumb__title {
-        font-size: 35px;
+        font-size: 40px;
         margin-bottom: 0;
     }
 
@@ -1987,11 +1988,17 @@ input[type=color] {
 }
 
 .breadcrumb-height {
-    padding-top: 200px;
-    padding-bottom: 190px;
+    padding-top: 170px;
+    padding-bottom: 200px;
 }
 
+@media (max-width: 767px) {
 
+    .breadcrumb-height {
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+}
 .breadcrumb__scroll-bottom {
     position: absolute;
     bottom: -30px;
@@ -2036,15 +2043,15 @@ input[type=color] {
 
 .breadcrumb__title {
     font-weight: 600;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.1;
-    color: #0c7878;;
+    color: #0c7878;
     padding-bottom: 15px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .breadcrumb__title {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 
@@ -2374,6 +2381,7 @@ input[type=color] {
     .mobile-menu.mean-container {
         margin-bottom: 30px;
     }
+
 }
 
 .mobile-menu .sidebar-list {
@@ -3090,6 +3098,10 @@ input[type=color] {
     .tp-hero__title-lg {
         font-size: 37px;
         color: #0b0b0b;
+    }
+
+    .breadcrumb__title {
+        font-size: 32px; !important;
     }
 }
 
