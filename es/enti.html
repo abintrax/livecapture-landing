@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/LC.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/logo/LC.png">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/custom-animation.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/spacing.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/custom-animation.css">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/nice-select.css">
+    <link rel="stylesheet" href="../assets/css/flaticon.css">
+    <link rel="stylesheet" href="../assets/css/meanmenu.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome-pro.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/spacing.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
@@ -52,7 +52,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-2 col-lg-2 col-md-6 col-6">
                     <div class="tp-header__logo">
-                        <a href="index.html"><img src="assets/img/logo/Logo_Live_Capture.jpg" alt="logo live capture"
+                        <a href="index.html"><img src="../assets/img/logo/Logo_Live_Capture.jpg" alt="logo live capture"
                                                   class="img-fluid">
                         </a>
                     </div>
@@ -70,13 +70,14 @@
                 </div>
                 <div class="col-xl-2 col-lg-2 col-md-6 col-6">
                     <div class="tp-header__right-two d-flex align-items-center justify-content-end">
-
+                        
                         <div class="language-switcher">
-                            <select id="language-switcher" onchange="changeLanguage()">
-                                <option value="/en/enti.html" selected>EN</option>
-                                <option value="/es/enti.html">ES</option>
+                            <select id="language-switcher" onchange="window.location.href=this.value;">
+                                <option value="../enti.html" selected>IT</option> <!-- Versione italiana -->
+                                <option value="/en/enti.html">EN</option> <!-- Versione spagnola --> 
                             </select>
                         </div>
+
 
                         <a class="tp-btn d-none d-md-block"
                            href="https://abintrax.com/download/"><span>Download</span></a>
@@ -98,21 +99,21 @@
         </div>
         <div class="tpoffcanvas__logo">
             <a href="index.html">
-                <img src="assets/img/logo/Logo-Live-Capture-Bianco.png" alt="Live Capture">
+                <img src="../assets/img/logo/Logo-Live-Capture-Bianco.png" alt="Live Capture">
             </a>
         </div>
         <div class="tpoffcanvas__text">
-            <p>Vuoi metterti in contatto con noi?</p>
+            <p>¿Quieres ponerte en contacto con nosotros?</p>
         </div>
         <div class="mobile-menu"></div>
         <div class="tpoffcanvas__info">
-            <h3 class="offcanva-title">Contatti</h3>
+            <h3 class="offcanva-title">Contactos</h3>
             <div class="tp-info-wrapper mb-20 d-flex align-items-center">
                 <div class="tpoffcanvas__info-icon">
                     <a href="#"><i class="fal fa-envelope"></i></a>
                 </div>
                 <div class="tpoffcanvas__info-address">
-                    <span>Email</span>
+                    <span>Correo electrónico</span>
                     <a href="info@abintrax.com">info@abintrax.com</a>
                 </div>
             </div>
@@ -121,7 +122,8 @@
                     <a href="#"><i class="fal fa-phone-alt"></i></a>
                 </div>
                 <div class="tpoffcanvas__info-address">
-                    <span>Telefono</span>
+                    <span>
+                        Teléfono</span>
                     <a href="tel:+39 080 2149700">+39 080 2149700</a>
                 </div>
             </div>
@@ -130,7 +132,7 @@
                     <a href="#"><i class="fas fa-map-marker-alt"></i></a>
                 </div>
                 <div class="tpoffcanvas__info-address">
-                    <span>Dove siamo</span>
+                    <span>Donde estamos</span>
                     <a href="" target="_blank">Via Marina del Mondo, 62
                         70043 Monopoli (BA)
                         Italia
@@ -140,7 +142,7 @@
         </div>
         <div class="tpoffcanvas__logo">
             <a href="https://abintrax.com/">
-                <img src="assets/img/logo/Logo%20Abintrax%20Bianco.png" alt="Live Capture">
+                <img src="../assets/img/logo/Logo%20Abintrax%20Bianco.png" alt="Live Capture">
             </a>
         </div>
     </div>
@@ -152,7 +154,7 @@
 
     <!-- breadcrumb area start -->
     <div class="breadcrumb__area breadcrumb-height p-relative grey-bg"
-         data-background="assets/img/breadcrumb/breadcrumb.jpg">
+         data-background="../assets/img/breadcrumb/breadcrumb.jpg">
         <div class="breadcrumb__scroll-bottom smooth">
             <i class="far fa-arrow-down"></i>
         </div>
@@ -160,7 +162,7 @@
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="breadcrumb__content text-center">
-                        <h3 class="breadcrumb__title">Enti Pubblici
+                        <h3 class="breadcrumb__title">Organismos públicos
                         </h3>
                         <div class="breadcrumb__list">
                         </div>
@@ -177,7 +179,7 @@
                      style="visibility: visible; animation-duration: 0.9s; animation-delay: 0.5s; animation-name: tpfadeLeft;">
                     <div class="tp-project__item mb-30">
                         <div class="tp-project__thumb fix">
-                            <a href="enti.html"><img src="assets/img/Architettura%20Territoriale-2.png"
+                            <a href="enti.html"><img src="../assets/img/Architettura%20Territoriale-2.png"
                                                      alt="grafico"></a>
                         </div>
 
@@ -185,38 +187,16 @@
                             <div class="col-xl-12 col-lg-12">
                                 <div class="amfeature">
                                     <div class="amfeature__item">
-                                        <h4 class="tp-project__title mb-30">Permette di estendere e diffrenziare le
-                                            prestazioni
-                                            offerte:</h4>
-                                        <p> E' una piattaforma tecnologica professionale che permette di
-                                            costruire modelli completi per gestione della rete dell’ assistenza
-                                            territoriale perfettamente integrati all’interno del contesto nazionale di
-                                            riferimento illustrato dal DM 71.</p>
+                                        <h4 class="tp-project__title mb-30">Permite ampliar y diferenciar los servicios ofrecidos:</h4>
+                                        <p> Es una plataforma tecnológica profesional que permite la construcción de modelos completos de gestión de la red de asistencia territorial perfectamente integrados en el contexto de referencia nacional ilustrado por el Decreto Ministerial 71.</p>
 
-                                        <p> Permette di eseguire, coordinare e governare la gestione del
-                                            paziente sul territorio attraverso la rete dell’ assistenza e delle cure
-                                            primarie consentendo di spostare il baricentro dall’ospedale al territorio
-                                            moltiplicando le iniziative di prevenzione e di collaborazione
-                                            multispecialistica per rispondere in modo più efficace, appropriato e
-                                            sostenibile a nuovi bisogni di salute del cittadino e alle nuove logiche di
-                                            organizzazione sanitaria, raccordando tutte le componenti su cui si fonda la
-                                            proposta assistenziale offerta dal sistema sanitario nazionale.</p>
+                                        <p> Permite ejecutar, coordinar y gobernar la gestión del paciente en el territorio a través de la red asistencial y de atención primaria, permitiendo desplazar el centro de gravedad del hospital al territorio, multiplicando las iniciativas de prevención y colaboración multiespecialista para responder de forma más eficaz, adecuada y sostenible a las nuevas necesidades de salud del ciudadano y a las nuevas lógicas de organización sanitaria, conectando todos los componentes sobre los que se fundamenta la propuesta asistencial que ofrece el sistema nacional de salud.</p>
 
-                                        <h4 class="tp-project__title mb-30 mt-30">Architettura di sistema flessibile, a
-                                            livelli
-                                            crescenti</h4>
+                                        <h4 class="tp-project__title mb-30 mt-30">Arquitectura de sistemas flexible, en niveles crecientes</h4>
 
-                                        <p>Il sistema Live Capture utilizza una architettura estremamente flessibile che
-                                            consente di costruire ed applicare protocolli di cura dinamici a livelli di
-                                            intensità crescenti in un ecosistema collaborativo in cui il paziente ed il
-                                            suo nucleo familiare sono il fulcro del processo.
-                                            E' basato su un'architettura Web based cloud ed offerto in SaaS per un
-                                            immediato utilizzo ed una intima ed efficace integrazione con i sistemi di
-                                            riferimento regionali, con i centri di coordinamento e con le Centrali
-                                            Operative Territoriali (COT).</p>
+                                        <p>El sistema Live Capture utiliza una arquitectura extremadamente flexible que permite construir y aplicar protocolos de atención dinámicos a niveles crecientes de intensidad en un ecosistema colaborativo donde el paciente y su familia son el centro del proceso. Se basa en una arquitectura Web basada en la nube y se ofrece en SaaS para su uso inmediato y una integración cercana y efectiva con los sistemas de referencia regionales, centros de coordinación y Centros de Operaciones Territoriales (COT).</p>
 
-                                        <p>Live Capture all’interno del contesto di riferimento per la strutturazione
-                                            della assistenza territoriale. </p>
+                                        <p>Captura en Vivo en el contexto de referencia para la estructuración de la asistencia territorial. </p>
                                     </div>
                                     <div class="tp-brand__area tp-brand__space mt-30">
                                         <div class="container">
@@ -225,7 +205,7 @@
                                                     <div class="tp-brand__section text-center mt-30 wow tpfadeUp"
                                                          data-wow-duration=".9s"
                                                          data-wow-delay=".3s">
-                                                        <h2 class="tp-project__title">Centrale Operativa Territoriale:
+                                                        <h2 class="tp-project__title">Centro de Operaciones Territoriales:
                                                         </h2>
                                                     </div>
                                                 </div>
@@ -238,16 +218,13 @@
                                                         </div>
                                                         <div class="amfeature__list">
                                                             <ul>
-                                                                <li><i class="fal fa-check"></i> Profilazione pazienti
+                                                                <li><i class="fal fa-check"></i> Perfiles de pacientes
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i> Profilazione unità di
-                                                                    assistenza multidisciplinare
+                                                                <li><i class="fal fa-check"></i> Perfiles de unidades de atención multidisciplinaria
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i> Pianificazione PDTA
-                                                                    |PAI
+                                                                <li><i class="fal fa-check"></i> Planificación PDTA |PAI
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i> Cruscotto di
-                                                                    monitoraggio e pianificazione dei processi
+                                                                <li><i class="fal fa-check"></i> Panel de control de planificación y seguimiento de procesos
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -260,16 +237,17 @@
                                                         </div>
                                                         <div class="amfeature__list">
                                                             <ul>
-                                                                <li><i class="fal fa-check"></i>Monitoraggio e
-                                                                    pianificazione delle attività
+                                                                <li><i class="fal fa-check"></i>Seguimiento y planificación de actividades
+
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i>Monitoraggio e gestione
-                                                                    risorse
+                                                                <li><i class="fal fa-check"></i>Monitoreo y gestión de recursos
+
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i>Monitoraggio e gestione
-                                                                    delle prestazioni
+                                                                <li><i class="fal fa-check"></i>Seguimiento y gestión del rendimiento
+
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i>Gestione degli Alert
+                                                                <li><i class="fal fa-check"></i>Gestión de alertas
+
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -282,17 +260,17 @@
                                                         </div>
                                                         <div class="amfeature__list">
                                                             <ul>
-                                                                <li><i class="fal fa-check"></i>Visualizzazione e
-                                                                    analisi indicatori
+                                                                <li><i class="fal fa-check"></i>Visualización y análisis de indicadores
+
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i>Analisi predittiva degli
-                                                                    indicatori
+                                                                <li><i class="fal fa-check"></i>Análisis predictivo de indicadores
+
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i>Gestione del Cruscotto
-                                                                    collaborativo
+                                                                <li><i class="fal fa-check"></i>Gestión colaborativa de paneles de control
+
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i>Monitoraggio clinico del
-                                                                    paziente
+                                                                <li><i class="fal fa-check"></i>Seguimiento clínico del paciente
+
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -303,15 +281,14 @@
                                                         <div class="amfeature__item"></div>
                                                         <div class="amfeature__list">
                                                             <ul>
-                                                                <li><i class="fal fa-check"></i>Gestione dei PDTA| PAI
+                                                                <li><i class="fal fa-check"></i>Gestión PDTA | PAI
+
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i>Video visita, video
-                                                                    consulto
+                                                                <li><i class="fal fa-check"></i>Visita por video, videoconsulta
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i>Gestione dei flussi dati
+                                                                <li><i class="fal fa-check"></i>Gestión del flujo de datos
                                                                 </li>
-                                                                <li><i class="fal fa-check"></i>Erogazione attività di
-                                                                    formazione
+                                                                <li><i class="fal fa-check"></i>Prestación de actividades de formación
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -325,9 +302,7 @@
                             <div class="col-xl-12 col-lg-12">
                                 <div class="amfeature am-fea-space">
                                     <div class="amfeature__item">
-                                        <h4 class="tp-project__title text-center">Centri di assistenza clinica (Ospedale
-                                            di Comunità
-                                            - Case della Comunità – Hospice – Assistenza Domiciliare - MMG/PLS)
+                                        <h4 class="tp-project__title text-center">Centros de atención clínica (hospital comunitario, hogares comunitarios, cuidados paliativos, atención domiciliaria, médicos de cabecera y auxiliares de enfermería)
                                         </h4>
                                     </div>
                                 </div>
@@ -339,12 +314,11 @@
                                         </div>
                                         <div class="amfeature__list">
                                             <ul>
-                                                <li><i class="fal fa-check"></i> Monitoraggio clinico del paziente
+                                                <li><i class="fal fa-check"></i> Seguimiento clínico del paciente
                                                 </li>
-                                                <li><i class="fal fa-check"></i> Possibilità di effettuare esami
-                                                    strumentali di controllo
+                                                <li><i class="fal fa-check"></i> Posibilidad de realizar pruebas de control instrumental
                                                 </li>
-                                                <li><i class="fal fa-check"></i> Gestione degli Alert
+                                                <li><i class="fal fa-check"></i> Gestión de alertas
                                                 </li>
 
                                             </ul>
@@ -357,32 +331,14 @@
                                         </div>
                                         <div class="amfeature__list">
                                             <ul>
-                                                <li><i class="fal fa-check"></i> Esecuzione delle attività schedulate
-                                                    dal PDTA| PAI
+                                                <li><i class="fal fa-check"></i> Ejecución de actividades programadas por el PDTA | PAI
                                                 </li>
-                                                <li><i class="fal fa-check"></i> Video consulto
+                                                <li><i class="fal fa-check"></i> Consulta por video
+
                                                 </li>
-                                                <li><i class="fal fa-check"></i> Gestione delle attività programmate
+                                                <li><i class="fal fa-check"></i> Gestión de actividades programadas
+
                                                 </li>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-3">
-                                    <div class="amfeature am-fea-space-2">
-                                        <div class="amfeature__item">
-                                        </div>
-                                        <div class="amfeature__list">
-                                            <ul>
-                                                <li><i class="fal fa-check"></i> Gestione collaborativa del paziente,
-                                                    second opinion, consulneze
-                                                </li>
-                                                <li><i class="fal fa-check"></i> Richiesta consulti specialistici on
-                                                    demand
-                                                </li>
-                                                <li><i class="fal fa-check"></i> Richiesta prestazioni specialistiche on
-                                                    demand
                                                 </li>
                                             </ul>
                                         </div>
@@ -394,9 +350,27 @@
                                         </div>
                                         <div class="amfeature__list">
                                             <ul>
-                                                <li><i class="fal fa-check"></i> Gestione della terapia
+                                                <li><i class="fal fa-check"></i> Gestión colaborativa de pacientes, segunda opinión, consultas.
                                                 </li>
-                                                <li><i class="fal fa-check"></i> Attività di formazione
+                                                <li><i class="fal fa-check"></i> Solicite consultas especializadas a demanda
+                                                </li>
+                                                <li><i class="fal fa-check"></i> Solicite servicios especializados a demanda
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3">
+                                    <div class="amfeature am-fea-space-2">
+                                        <div class="amfeature__item">
+                                        </div>
+                                        <div class="amfeature__list">
+                                            <ul>
+                                                <li><i class="fal fa-check"></i>Manejo de la terapia
+
+                                                </li>
+                                                <li><i class="fal fa-check"></i> Actividades de formación
+
                                                 </li>
                                             </ul>
                                         </div>
@@ -406,8 +380,7 @@
                             <div class="col-xl-12 col-lg-12">
                                 <div class="amfeature am-fea-space">
                                     <div class="amfeature__item">
-                                        <h4 class="tp-project__title text-center">Sanità privata all’interno del modello
-                                            assistenziale del DM 71
+                                        <h4 class="tp-project__title text-center">La sanidad privada en el modelo sanitario del DM 71
                                         </h4>
                                     </div>
                                 </div>
@@ -419,12 +392,12 @@
                                         </div>
                                         <div class="amfeature__list">
                                             <ul>
-                                                <li><i class="fal fa-check"></i> Consulenze e prestazioni specialistiche
+                                                <li><i class="fal fa-check"></i> Consultas y servicios especializados
+
                                                 </li>
-                                                <li><i class="fal fa-check"></i> Possibilità di effettuare esami
-                                                    strumentali di controllo
+                                                <li><i class="fal fa-check"></i> Posibilidad de realizar pruebas de control instrumental
                                                 </li>
-                                                <li><i class="fal fa-check"></i> Monitoraggio clinico del paziente
+                                                <li><i class="fal fa-check"></i> Seguimiento clínico del paciente
                                                 </li>
                                             </ul>
                                         </div>
@@ -457,10 +430,10 @@
                 <div class="col-xl-12">
                     <div class="tp-footer__content text-center">
                         <h3 class="tp-section-title text-white wow tpfadeUp" data-wow-duration=".9s"
-                            data-wow-delay=".3s">Vuoi ricevere maggiori informazioni? 📥</h3>
+                            data-wow-delay=".3s">¿Quieres recibir más información? 📥</h3>
                         <div class="tp-header__right-two d-flex align-items-center justify-content-center">
                             <a class="tp-btn d-none d-md-block"
-                               href="https://abintrax.com/contattaci/"><span>Contattaci</span></a>
+                               href="https://abintrax.com/contattaci/"><span>Contáctenos</span></a>
                             <a class="tp-header__bars tp-menu-bar d-lg-none" href="#"><i class="far fa-bars"></i></a>
                         </div>
                     </div>
@@ -473,12 +446,12 @@
                     <div class="row align-items-center">
                         <div class="col-xl-2 col-lg-2 col-md-6 col-12 order-2 order-lg-1 text-center text-md-start">
                             <div class="tp-footer-bottom__logo">
-                                <a href="index.html"><img src="assets/img/logo/LC_negativo.png" height="60" alt=""></a>
+                                <a href="index.html"><img src="../assets/img/logo/LC_negativo.png" height="60" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-7 col-md-12 col-12 order-1 order-lg-2 d-none d-sm-block">
                             <div class="d-flex align-items-center justify-content-center ml-100">
-                                <img src="assets/img/logo/Logo Abintrax Bianco.png" height="30" alt="">
+                                <img src="../assets/img/logo/Logo Abintrax Bianco.png" height="30" alt="">
                             </div>
 
                         </div>
@@ -504,20 +477,20 @@
 </footer>
 
 <!-- JS here -->
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/waypoints.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/swiper-bundle.js"></script>
-<script src="assets/js/slick.js"></script>
-<script src="assets/js/magnific-popup.js"></script>
-<script src="assets/js/counterup.js"></script>
-<script src="assets/js/wow.js"></script>
-<script src="assets/js/nice-select.js"></script>
-<script src="assets/js/meanmenu.js"></script>
-<script src="assets/js/isotope-pkgd.js"></script>
-<script src="assets/js/imagesloaded-pkgd.js"></script>
-<script src="assets/js/ajax-form.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="../assets/js/jquery.js"></script>
+<script src="../assets/js/waypoints.js"></script>
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/swiper-bundle.js"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/magnific-popup.js"></script>
+<script src="../assets/js/counterup.js"></script>
+<script src="../assets/js/wow.js"></script>
+<script src="../assets/js/nice-select.js"></script>
+<script src="../assets/js/meanmenu.js"></script>
+<script src="../assets/js/isotope-pkgd.js"></script>
+<script src="../assets/js/imagesloaded-pkgd.js"></script>
+<script src="../assets/js/ajax-form.js"></script>
+<script src="../assets/js/main.js"></script>
 
 
 </body>
