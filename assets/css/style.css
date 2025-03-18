@@ -8092,3 +8092,40 @@ blockquote cite::before {
 
 /*# sourceMappingURL=style.css.map */
 
+
+/* faq page accordion section */
+.qr-clickable {
+    width: 50%; 
+    max-width: 200px; 
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px; 
+    cursor: pointer; 
+    margin-bottom: 15px; 
+ }
+
+ .barcode-icon {
+    width: 50px;
+    height: auto;
+    margin-left: 5px;
+ }
+ 
+ iframe {
+    border-radius: 10px;
+ }
+
+ .icon-img {
+    width: 24px; 
+    height: auto;
+    vertical-align: middle;
+ }
+
+ .exam-icon {
+    max-width: 130px; 
+    max-height: 130px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+ }
+ 
+ .exam-icon:hover {
+    transform: scale(1.1);
+ }
